@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression">
+	<test name="Automation Suite2">
+		<classes>
+			<class name="com.homeAway.services.TestExercise2">
+				<methods>
+				<include name="getNearestStationTest"></include>
+				<include name="getStationAddressTest"></include>
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+</suite>
